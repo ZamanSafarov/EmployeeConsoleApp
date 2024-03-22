@@ -10,11 +10,11 @@ namespace EmployeeConsoleApp
     {
         public Employee(string name,string surname,byte age,string departmentNo,int salary)
         {
-            Name = name;
-            Surname = surname;
-            Age = age;
-            DepartmentName = departmentNo;
-            Salary = salary;
+            this.Name = name;
+            this.Surname = surname;
+            this.Age = age;
+            this.DepartmentName = departmentNo;
+            this.Salary = salary;
 
         }
         public string Name;
